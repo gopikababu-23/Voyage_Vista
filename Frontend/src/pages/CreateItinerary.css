@@ -1,0 +1,130 @@
+body.create-itinerary-bg {
+  background: url('https://images5.alphacoders.com/361/361914.jpg') no-repeat center center fixed !important;
+  background-size: cover;
+  min-height: 100vh; 
+}
+
+
+.itinerary-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: left;
+  }
+  
+  input {
+    padding: 8px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .generate-btn,
+  .pdf-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .generate-btn:hover,
+  .pdf-btn:hover {
+    background: #219150;
+  }
+  
+  .itinerary-output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .itinerary-output h2 {
+    margin-bottom: 10px;
+  }
+  
+  .itinerary-output ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .itinerary-output li {
+    margin: 5px 0;
+  }
+
+  .itinerary-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0,0, 0, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .itinerary-container h2 {
+    text-align: center;
+  }
+  
+  .itinerary-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .itinerary-container input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 98%;
+  }
+
+  .itinerary-container select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .itinerary-container button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .itinerary-output {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.itinerary-output pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+  

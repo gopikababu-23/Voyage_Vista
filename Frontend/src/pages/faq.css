@@ -1,0 +1,102 @@
+.faq-page {
+  background: url('https://images5.alphacoders.com/361/361914.jpg') no-repeat center center fixed !important;
+  background-size: cover !important;
+  width: 100vw !important;
+  height: 120vh !important;
+  position: relative !important;
+  z-index: -1 !important;
+}
+
+/* Main FAQ content section */
+.main-content { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+}
+
+/* FAQ Box */
+.faq-container {
+    max-width: 1300px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+/* FAQ Items */
+.faq {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq h3 {
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.faq h3:hover {
+    color: #3498db;
+}
+
+/* FAQ Answers (Initially Hidden) */
+.faq p {
+    display: none;
+    font-size: 16px;
+    color: #ddd;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Show Answer When Active */
+.faq.active p {
+    display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .faq-container {
+        padding: 10px;
+    }
+
+    .faq h3 {
+        font-size: 18px;
+    }
+
+    .faq p {
+        font-size: 14px;
+    }
+}
+
+/* Center the "Create Itinerary" Button */
+.create-itinerary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Button Styles */
+.create-btn {
+    background-color: rgb(86, 78, 246) !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s;
+}
+
+.create-btn:hover {
+    background-color: #2980b9 !important;
+}

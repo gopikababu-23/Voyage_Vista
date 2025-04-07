@@ -1,0 +1,54 @@
+.about-container {
+  position: relative;
+  text-align: center;
+  padding: 150px;
+  font-family: Arial, sans-serif;background: url('https://images5.alphacoders.com/361/361914.jpg') no-repeat center center/cover;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.6);;
+  max-width: 80000px;
+  font-size: 20px;
+  line-height: 0.99;
+}
+
+h1, h2 {
+  color: greenyellow;
+}
+
+p, ul {
+  font-size: 16px;
+  line-height: 0.99;
+}
+
+.features-list, .why-us {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li, .why-us li {
+  padding: 10px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.closing-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+hr {
+  border: none; /* Removes default border */
+  height: 0.2px; /* Adjust thickness */
+  background-color: #000000; /* Change color */
+  margin: 10px 0; /* Adjust spacing */
+}

@@ -1,0 +1,90 @@
+.auth-container {
+    background: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    z-index: -1;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  }
+  
+  body.login-page {
+    background: url('C:\Users\S MOHAN BABU\Downloads\Travel\travel-frontend\src\assets\bg2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .tagline {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  
+  .auth-container input {
+    width: 93%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .auth-container button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .auth-container button:hover {
+    background: #2980b9;
+  }
+  
+  .login-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password {
+    color: #f1c40f;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .signup-link a {
+    color: #f1c40f;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  body.login-page {
+    background: url('C:\Users\S MOHAN BABU\Downloads\Travel\travel-frontend\src\assets\bg2.jpg') no-repeat center center/cover !important;
+  }
+  
